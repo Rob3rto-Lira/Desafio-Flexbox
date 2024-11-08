@@ -1,0 +1,18 @@
+body {
+  background-color: aliceblue;
+}
+
+.sidebar-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25em;
+  height: 100vh;
+}
+
+main img {
+  display: flex;
+  max-width: 40%;
+  max-height: auto;
+}
