@@ -1,10 +1,8 @@
+
 body {
   margin: 0;
   padding: 0;
   background-color: aliceblue;
-  display: flex;
-  align-items: center;
-  height: 100vh;
 }
 
 .sidebar-container {
@@ -12,25 +10,44 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 25em;
+  width: 20em;
   height: 100vh;
 }
 
-main {
+.border {
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+.newChatContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.newChat {
+  background-color: rgb(178, 159, 216);
+}
+
+main {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
 
-main img {
-  max-width: 40%;
+.logo {
+  max-width: 25%;
   max-height: auto;
 }
 
 .profile-info {
   display: flex;
-  align-items: center; /* Vertically align the image and text */
+  align-items: center;
+  gap: 0.5em;
 }
 
 .imageCircle {
@@ -44,4 +61,10 @@ main img {
 
 .user {
   width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.gris {
+  color: gray;
 }
