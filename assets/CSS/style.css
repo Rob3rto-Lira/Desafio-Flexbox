@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -51,6 +50,18 @@ main {
 }
 
 .imageCircle {
+  border-radius: 50%;
+  max-height: 2rem;
+}
+
+.chatContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+.contact {
   border-radius: 50%;
   max-height: 3rem;
 }
