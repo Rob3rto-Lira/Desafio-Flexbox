@@ -1,5 +1,10 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
 
 .sidebar-container {
@@ -11,8 +16,32 @@ body {
   height: 100vh;
 }
 
-main img {
+main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+main img {
   max-width: 40%;
   max-height: auto;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center; /* Vertically align the image and text */
+}
+
+.imageCircle {
+  border-radius: 50%;
+  max-height: 3rem;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.user {
+  width: 100%;
 }
